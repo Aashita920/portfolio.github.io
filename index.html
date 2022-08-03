@@ -1,27 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav class="navbar">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Protfolio</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
         </ul>
     </nav>
 
     <section id="home">
         <div class="main">
             <h1 class="headings">I AM <br>AASHITA RAJPUT</h1>
+            <button class="btn">Hire me</button>
         </div>
     </section>
+
+    <section id="about">
+
+        <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">
+            <img src="aashita.jpeg" alt="">
+            <div id="intro">
+                <h2>AASHITA RAJPUT</h2>
+                <p><h2>Hello, <br> I am a Computer Science Master's Student. I am into Web Development, Android Development and Scoftware development. I am very much facinated by the computer science world.</h2></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="headings">PORTFOLIO</h1>
+        <div class="gallery">
+            <img src="https://images6.content-hci.com/commimg/myhotcourses/blog/post/myhc_89683.jpg" alt="">
+            <img src="https://www.mooc.org/hubfs/cybersecurity-computer-science.jpg" alt="">
+            <img src="https://i0.wp.com/www.mmumullana.org/wp-content/uploads/2022/02/cloud.jpg?fit=400%2C267&ssl=1" alt="">
+            <img src="https://www.worksydney.com.au/wp-content/uploads/2020/09/medium_2020-09-15-8307b3f1ae.jpg" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW7GwpI4sd67eniQFuvd_1mXceK9_CrDdJkg&usqp=CAU" alt="">
+            <img src="https://www.stevens.edu/sites/stevens_edu/files/styles/articles_callout_500x281/public/Untitled%20design%20%288%29_4_0.png?itok=ct3h4IWL" alt="">
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="https://www.onlinecoursereport.com/wp-content/uploads/2020/07/shutterstock_394793860-1024x784.jpg" alt="">
+                <h1 class="headings">Web Development</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni atque dignissimos necessitatibus, nam
+                    officia rerum illo, perferendis corrupti consequuntur sit rem cum sapiente maiores blanditiis,
+                    itaque nulla repellat ipsum omnis error? Repudiandae eius reiciendis dolorem ullam dolores. Nam, ut
+                    aliquid.</p>
+            </div>
+            <div class="box">
+                <img src="https://richestsoft.com/blog/wp-content/uploads/2019/02/Android-app-development.jpg" alt="">
+                <h1 class="headings">Android App Development</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni atque dignissimos necessitatibus, nam
+                    officia rerum illo, perferendis corrupti consequuntur sit rem cum sapiente maiores blanditiis,
+                    itaque nulla repellat ipsum omnis error? Repudiandae eius reiciendis dolorem ullam dolores. Nam, ut
+                    aliquid.</p>
+            </div>
+            <div class="box">
+                <img src="https://www.webhopers.com/wp-content/uploads/2022/02/software-development-company-in-Karnal.jpg" alt="">
+                <h1 class="headings">Software Development</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni atque dignissimos necessitatibus, nam
+                    officia rerum illo, perferendis corrupti consequuntur sit rem cum sapiente maiores blanditiis,
+                    itaque nulla repellat ipsum omnis error? Repudiandae eius reiciendis dolorem ullam dolores. Nam, ut
+                    aliquid.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your E-mail">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
 </body>
+
 </html>
